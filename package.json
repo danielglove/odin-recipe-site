@@ -1,0 +1,23 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css  -o ./build/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielglove/odin-recipes.git"
+  },
+  "author": "Daniel Odeny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielglove/odin-recipes/issues"
+  },
+  "homepage": "https://github.com/danielglove/odin-recipes#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
